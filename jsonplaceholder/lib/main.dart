@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:jsonplaceholder/controller/app_controller.dart';
+import 'package:jsonplaceholder/view/user_screen.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -14,6 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      home: UserScreen(),
     );
   }
 }
